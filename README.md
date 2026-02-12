@@ -21,11 +21,9 @@ Validation: Inference testing showing correct classification (e.g., Subject ID: 
 📂 Project Structure
 CATTLE ID/
 ├── data/
-│   ├── processed/ (train/val splits)
-│   └── raw/ (original dataset)
+│   └── sample_images/ (5-10 images for testing)
 ├── models/
-│   ├── efficientnet_weights.pth
-│   └── trained_cow_model.pth
+│   └── (Download weights from Google Drive link in README)
 ├── scripts/
 │   ├── data_loader.py
 │   ├── model_setup.py
