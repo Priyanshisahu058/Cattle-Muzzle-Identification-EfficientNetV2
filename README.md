@@ -37,6 +37,10 @@ Clone the Repo:
 git clone https://github.com/Priyanshisahu058/Cattle-Muzzle-Identification-EfficientNetV2.git
 Run Prediction:
 py scripts/predict.py
+ 📥 Pre-trained Model Weights
+Due to GitHub's 100MB file size limit, the trained model weights (.pth file) are hosted on Google Drive. 
+[Download trained_cow_model.pth here](https://drive.google.com/drive/folders/1Snq9WO2EGXr1iKpQc3VIJrBeA_PWAEpQ?usp=drive_link)
+Note:After downloading, please place the `.pth` file inside the `models/` directory before running the `predict.py` script
 
 🔮 Future Scope
 Edge Deployment: Optimizing the pipeline for real-time farm applications on mobile/low-resource devices.
